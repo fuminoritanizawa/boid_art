@@ -10,17 +10,17 @@ FULLSCREEN = True  # Set to False for windowed mode
 SCREEN_WIDTH = 1920  # Set width if not fullscreen
 SCREEN_HEIGHT = 1080  # Set height if not fullscreen
 BACKGROUND_COLOR = (15, 15, 20)  # Dark background for contrast
-NUM_BOIDS = 200  # Total number of boids
+NUM_BOIDS = 250  # Total number of boids
 NUM_TYPES = 7  # Number of distinct flock colors
-GRADATION_LEVELS = 4  # Sub-levels of color variation within each type
-BOID_SIZE = 30  # Size of the triangular boid
-BOID_SPEED = 5  # Max movement speed
-PERCEPTION_RADIUS = 120  # How far each boid sees
-SEPARATION_RADIUS = 25  # Minimum distance between boids (within the same type)
-AVOIDANCE_RADIUS = 100  # Distance where different colors start avoiding each other
+GRADATION_LEVELS = 10  # Sub-levels of color variation within each type
+BOID_SIZE = 25  # Size of the triangular boid
+BOID_SPEED = 8 # Max movement speed
+PERCEPTION_RADIUS = 250  # How far each boid sees
+SEPARATION_RADIUS = 50  # Minimum distance between boids (within the same type)
+AVOIDANCE_RADIUS = 120  # Distance where different colors start avoiding each other
 COLOR_BLEND_FACTOR = 0.02  # Smooth color blending factor
-TURNING_FACTOR = 0.12  # Controls smooth movement (higher = sharper turns)
-FPS = 360  # Frame rate
+TURNING_FACTOR = 0.5  # Controls smooth movement (higher = sharper turns)
+FPS = 3600  # Frame rate
 
 # ==============================
 # PYGAME INITIALIZATION
